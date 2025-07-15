@@ -32,3 +32,9 @@ collect([1, 2, 3, 4])​
 3. ```filter(fn($n) => $n > 5)```​ filtra mayores a 5 -> [6, 8]
 4. ```values()```​ reindexa las claves -> [0 => 6, 1 => 8]
 5. ```all()``` devuelve un array plano => [6, 8]
+
+
+## 3. (Opcional) Mejora de rendimiento en Laravel
+- Uso de cache para guardar datos que probablemente no se sufran cambios continuamente
+- Eager loading en las relaciones eloquent
+- Uso de índices a nivel base de datos
